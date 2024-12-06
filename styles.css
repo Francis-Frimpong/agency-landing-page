@@ -1,15 +1,19 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    position: relative;
     
 }
 
-.header {
-    
+.navContainer {
     display: flex;
     justify-content: space-between;
+    padding: 50px 30px;
+
+}
+.header {
+    
     /* align-items: center; */
-    padding: 16px;
     background-image: url("images/mobile/image-header.jpg");
     height: 100vh;
     background-size: cover;
@@ -47,4 +51,99 @@ body {
 
 .navManu {
     display: block;
+}
+
+.banner {
+    position: relative;
+    margin-top: 25%;
+    
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 3rem;
+    font-family: "Fraunces", serif;
+
+}
+
+.arrow-img {
+ position: absolute;
+ top: 37%;
+ left: 48%;
+
+}
+
+section img {
+    width: 100%;
+    object-fit: cover;
+
+}
+.cards {
+    display: grid;
+    grid-template-areas: 
+    
+    "egg"
+    "egg-card"
+    "cup"
+    "cup-card"
+    "fruit1"
+    "fruit2";
+    /* grid-template-rows: auto; 
+     grid-template-columns: 1fr;  */
+    width: 100%;
+}
+
+.egg {
+    grid-area: egg;
+}
+
+.egg-card {
+    grid-area: egg-card;
+}
+
+.cup {
+    grid-area: cup;
+}
+
+.cup-card {
+    grid-area: cup-card;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(11, 100%, 97%);
+}
+
+.card h2 {
+    font-family: "Fraunces", serif;
+    margin-top: 70px;
+    width: 270px;
+    text-align: center;
+    font-size: 2rem;
+    color: hsl(212, 27%, 19%);
+}
+
+.card p {
+    width: 450px;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    color: hsl(232, 10%, 55%);
+}
+
+.card a{
+    text-decoration: none;
 }

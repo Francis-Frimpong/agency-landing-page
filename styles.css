@@ -81,7 +81,7 @@ body {
 
 }
 
-section img {
+main img {
     width: 100%;
     object-fit: cover;
 
@@ -94,11 +94,12 @@ section img {
     "egg-card"
     "cup"
     "cup-card"
-    "fruit1"
-    "fruit2";
+    "graphic-design"
+    "photo-design";
     /* grid-template-rows: auto; 
      grid-template-columns: 1fr;  */
     width: 100%;
+
 }
 
 .egg {
@@ -115,6 +116,15 @@ section img {
 
 .cup-card {
     grid-area: cup-card;
+}
+
+.graphic-design {
+    grid-area: graphic-design;
+}
+
+.photo-design {
+    grid-area: photo-design;
+    
 }
 
 .card {
@@ -146,4 +156,122 @@ section img {
 
 .card a{
     text-decoration: none;
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: 18px 0 100px 0;
 }
+
+
+
+.special-width{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(11, 100%, 97%);
+}
+.special-width h2{
+    font-family: "Fraunces", serif;
+    margin-top: 70px;
+    width: 270px;
+    text-align: center;
+    font-size: 2rem;
+    color: hsl(212, 27%, 19%);
+}
+
+.special-width p{
+    width: 420px;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    color: hsl(232, 10%, 55%);
+}
+
+.special-width a{
+    text-decoration: none;
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin: 18px 0 100px 0;
+}
+
+.graphic-card {
+    position: relative;
+    height: 100%;
+}
+
+.graphic-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+
+    color: hsl(167, 40%, 24%);
+}
+
+.graphic-text h2{
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.graphic-text p{
+    width: 490px;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    
+    
+}
+
+
+.graphic-card img {
+    height: inherit;
+    
+
+}
+
+.photo-card {
+    position: relative;
+    height: 100%;
+}
+
+.photo-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    color: hsl(167, 40%, 24%);
+}
+
+.photo-text h2{
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.photo-text p{
+    width: 490px;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    
+}
+

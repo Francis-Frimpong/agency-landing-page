@@ -289,7 +289,8 @@ main img {
     letter-spacing: 10px;
     font-weight: 900;
     font-size: 1.5rem;
-    margin-top: 100px;
+    margin-top: 0;
+    padding-top: 100px;
 }
 .emily{
     display: flex;
@@ -321,7 +322,7 @@ main img {
 
 .emily h4{
     color: hsl(232, 10%, 55%);
-    font-family: Barlow", sans-serif;
+    font-family: "Barlow", sans-serif;
 }
 
 
@@ -343,7 +344,7 @@ main img {
     font-family: "Barlow", sans-serif;
     font-weight: 600;
     color: hsl(232, 10%, 55%);
-    width: 360px;
+    width: 380px;
     text-align: center;
     line-height: 37px;
 }
@@ -355,13 +356,8 @@ main img {
 
 .thomas h4{
     color: hsl(232, 10%, 55%);
-    font-family: Barlow", sans-serif;
+    font-family: "Barlow", sans-serif;
 }
-
-
-
-
-
 
 
 .jennie{
@@ -382,7 +378,7 @@ main img {
     font-family: "Barlow", sans-serif;
     font-weight: 600;
     color: hsl(232, 10%, 55%);
-    width: 360px;
+    width: 380px;
     text-align: center;
     line-height: 37px;
 }
@@ -394,8 +390,37 @@ main img {
 
 .jennie h4{
     color: hsl(232, 10%, 55%);
-    font-family: Barlow", sans-serif;
+    font-family: "Barlow", sans-serif;
+    margin-bottom: 150px;
 }
+
+
+.image{
+    width: 100%;
+    height: inherit;
+    display: grid;
+    grid-template-areas: 
+    "milk orange-fruit"
+    "cone suger"
+}
+
+.image .milk{
+    grid-area: milk;
+}
+
+.image .orange{
+    grid-area: orange-fruit;
+}
+
+.image .cone{
+    grid-area: cone;
+}
+
+.image .suger{
+    grid-area: suger;
+}
+
+
 
 
 

@@ -28,12 +28,16 @@ body {
 
 .mobile-navLinks {
     position: fixed;
-    top:30%;
+    top:50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
     z-index: 1;
     background-color: white;
-    padding: 20px 40px;
+    padding: 100px 90px;
     display: none;
+    width: 60%;
+    
 }
 .mobileLinks {
     display: flex;
@@ -47,6 +51,16 @@ body {
     text-decoration: none;
     margin-bottom: 20px;
     font-size: 1.3rem;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    color: hsl(232, 10%, 55%);
+}
+
+.mobileLinks .styleLink {
+    background-color: hsl(51, 100%, 49%);
+    color: hsl(212, 27%, 19%);
+    padding: 12px 27px;
+    border-radius: 25px;
 }
 
 .navManu {

@@ -523,21 +523,22 @@ main img {
 
 
     .arrow-img {
-        top:2.7%;       
+        top: 5%;       
        }
 
     
-    .cards {
-        display: grid;
+       .cards {
+        /* display: grid; */
         grid-template-areas: 
-        
-        "egg-card egg"
-        "cup cup-card"
-        "graphic-design"
-        "photo-design";
-        /* width: 100%; */
-    
+            "egg-card egg"
+            "cup cup-card"
+            "graphic-design photo-design";
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        grid-template-rows: auto auto auto; /* Three rows with automatic height */
+        width: 100%;
+        /* gap: 16px;  */
     }
+    
 
 }
 

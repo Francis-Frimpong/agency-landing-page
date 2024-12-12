@@ -4,3 +4,5 @@ const mobileNavLinks = document.querySelector('.mobile-navLinks');
 humburgerManu.addEventListener('click', () => {
     mobileNavLinks.classList.toggle("navManu")
 })
+
+

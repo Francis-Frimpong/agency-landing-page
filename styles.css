@@ -509,6 +509,11 @@ main img {
 
     }
 
+    .navLinks .styleLink:hover{
+        /* color: white; */
+        opacity: 0.5;
+    }
+
     .header {
         background-image: url("images/desktop/image-header.jpg");
         /* height: 100vh; */
@@ -536,8 +541,57 @@ main img {
         grid-template-columns: 1fr 1fr; /* Two equal columns */
         grid-template-rows: auto auto auto; /* Three rows with automatic height */
         width: 100%;
-        /* gap: 16px;  */
+        /* height: 100%; */
     }
+
+    .card h2 , .card p, .card a{
+        text-align: start;
+    }
+
+    .testimonial-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    .testimonial-cards .jennie, .thomas, .emily{
+        margin: 0 20px;
+
+    }
+
+    .jennie h4 {
+        margin-bottom: 21px;
+    }
+
+    .jennie p{
+        font-size: 1.2rem;
+    }
+    .thomas p{
+        font-size: 1.2rem;
+    }
+    .emily p{
+        font-size: 1.2rem;
+        width: 350px;
+    }
+
+    .cards .egg{
+        height: 100%;
+    }
+    .cards .cup{
+        height: 100%;
+    }
+
+    .image{
+        width: 100%;
+        /* height: inherit; */
+        display: grid;
+        grid-template-areas: 
+        "milk orange-fruit cone suger"
+        
+    }
+
+    
     
 
 }

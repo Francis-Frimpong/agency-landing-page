@@ -81,27 +81,47 @@
   
       </div>
 
+
       <div class="graphic-card">
-        <img src="images/mobile/image-graphic-design.jpg" alt="" class="graphic-design">
+        <picture class="graphic-design">
+          <!-- Mobile image -->
+          <source srcset="images/mobile/image-graphic-design.jpg" media="(max-width: 576px)">
+          
+          <!-- Desktop image -->
+          <source srcset="images/desktop/image-graphic-design.jpg" media="(min-width: 1200px)">
+          
+          <!-- Fallback image -->
+          <img src="images/desktop/image-graphic-design.jpg" alt="Photography" class="photo-design">
+        </picture>
+      
         <div class="graphic-text">
-          <h2> Graphic design</h2>
+          <h2>Graphic Design</h2>
           <p>
             Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
           </p>
-
-        </div>
-
-      </div>
-      <div class="photo-card">
-        <img src="images/mobile/image-photography.jpg" alt="" class="photo-design">
-        <div class="photo-text">
-          <h2> Photography</h2>
-          <p>
-            Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-          </p>
-
         </div>
       </div>
+
+        <div class="photo-card">
+          <picture class="photo-design">
+            <!-- Mobile image -->
+            <source srcset="images/mobile/image-photography.jpg" media="(max-width: 576px)">
+            
+            <!-- Desktop image -->
+            <source srcset="images/desktop/image-photography.jpg" media="(min-width: 1200px)">
+            
+            <!-- Fallback image -->
+            <img src="images/desktop/image-photography.jpg" alt="Photography" class="photo-design">
+          </picture>
+        
+          <div class="photo-text">
+            <h2>Photography</h2>
+            <p>
+              Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+            </p>
+          </div>
+        </div>
+        
 
     </div>
     <div class="testimonials">
